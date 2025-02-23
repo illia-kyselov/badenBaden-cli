@@ -1,0 +1,49 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/InknutAntiqua-Black.ttf",
+      "sha1": "45e234d534ce2ed1b4cb91270a16437a8642a36c"
+    },
+    {
+      "path": "src/assets/fonts/InknutAntiqua-Bold.ttf",
+      "sha1": "236c3cbbb002632fb830d6152baf7d29918a016f"
+    },
+    {
+      "path": "src/assets/fonts/InknutAntiqua-ExtraBold.ttf",
+      "sha1": "b549dafed37e4c16facc6335fe3e596848c5e2ec"
+    },
+    {
+      "path": "src/assets/fonts/InknutAntiqua-Light.ttf",
+      "sha1": "410b4e643aba1c9f9c712f174b0feba4caa2f31e"
+    },
+    {
+      "path": "src/assets/fonts/InknutAntiqua-Medium.ttf",
+      "sha1": "2a56082b6d505c6e7f7eaffaa8025ad3e278b3d5"
+    },
+    {
+      "path": "src/assets/fonts/InknutAntiqua-Regular.ttf",
+      "sha1": "1a88e116fab0387cee7eedd54b5a67e3b235e768"
+    },
+    {
+      "path": "src/assets/fonts/InknutAntiqua-SemiBold.ttf",
+      "sha1": "45431694bfa6cb43a4953ff76554d4bff3344bf1"
+    },
+    {
+      "path": "src/assets/fonts/Montserrat-Bold.ttf",
+      "sha1": "c7d907722af4fb845ab97d515bb414f29651f000"
+    },
+    {
+      "path": "src/assets/fonts/Montserrat-Italic-VariableFont_wght.ttf",
+      "sha1": "7ba6660400f0cb201da6facd9cddb768a182c968"
+    },
+    {
+      "path": "src/assets/fonts/Montserrat-Regular.ttf",
+      "sha1": "1c8119b38eef1914a4fbd9f6cfdedf198445ab97"
+    },
+    {
+      "path": "src/assets/fonts/Montserrat-VariableFont_wght.ttf",
+      "sha1": "e3f5228e62455228b55694f1cb5ac40f9682a86b"
+    }
+  ]
+}

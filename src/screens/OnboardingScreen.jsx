@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
-import { View, Text, Image, TouchableOpacity, StyleSheet } from 'react-native';
+import { View, Text, Image, TouchableOpacity, StyleSheet, Dimensions } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import LinearGradient from 'react-native-linear-gradient';
+
+const { width, height } = Dimensions.get('window');
 
 const slides = [
     {
@@ -25,7 +27,7 @@ const slides = [
         id: '3',
         title: 'Surprise Me!',
         description:
-            "Can't decide? Use our randomizer to pick a location for you.",
+            "Can't decide? Use our randomizer to pick a location for you and discover something new!",
         image: require('../assets/icons/onboarding/Onboarding3.png'),
         buttonTitle: 'Next',
     },
@@ -107,7 +109,7 @@ const styles = StyleSheet.create({
     imageContainer: {
         position: 'relative',
         width: '100%',
-        height: 447,
+        height: height * 0.5,
     },
     image: {
         width: '100%',
@@ -142,8 +144,8 @@ const styles = StyleSheet.create({
     title: {
         fontFamily: 'InknutAntiqua-Medium',
         fontWeight: 600,
-        fontSize: 24,
-        lineHeight: 26,
+        fontSize: width > 600 ? 28 : 24,
+        lineHeight: 30,
         letterSpacing: 0,
         color: '#CDA568',
         marginBottom: 35,
@@ -154,22 +156,22 @@ const styles = StyleSheet.create({
     description: {
         fontFamily: 'Montserrat',
         fontWeight: 400,
-        fontSize: 16,
-        lineHeight: 20,
+        fontSize: width > 600 ? 18 : 16,
+        lineHeight: 22,
         color: '#FFF',
         marginBottom: 23,
         textAlign: 'center',
     },
     button: {
         backgroundColor: '#CDA568',
-        paddingVertical: 18,
-        height: 56,
-        width: 230,
+        paddingVertical: width > 600 ? 22 : 18,
+        height: width > 600 ? 70 : 56,
+        width: width > 600 ? 280 : 230,
     },
     buttonText: {
         fontFamily: 'MontserratBold',
         fontWeight: '700',
-        fontSize: 16,
+        fontSize: width > 600 ? 18 : 16,
         lineHeight: 20,
         textAlign: 'center',
         color: '#020407',

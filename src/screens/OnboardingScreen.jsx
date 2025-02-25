@@ -128,7 +128,6 @@ const styles = StyleSheet.create({
         alignItems: 'center',
     },
     header: {
-        width: '100%',
         resizeMode: 'cover',
     },
     contentContainer: {
@@ -149,8 +148,8 @@ const styles = StyleSheet.create({
         color: '#CDA568',
         marginBottom: 35,
         textAlign: 'center',
-        paddingHorizontal: 13,
         paddingTop: 41,
+        width: 284,
     },
     description: {
         fontFamily: 'Montserrat',
@@ -164,13 +163,15 @@ const styles = StyleSheet.create({
     button: {
         backgroundColor: '#CDA568',
         paddingVertical: 18,
-        paddingHorizontal: 66,
+        height: 56,
+        width: 230,
     },
     buttonText: {
         fontFamily: 'MontserratBold',
         fontWeight: '700',
         fontSize: 16,
         lineHeight: 20,
+        textAlign: 'center',
         color: '#020407',
     },
 });
